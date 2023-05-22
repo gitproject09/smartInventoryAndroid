@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditorTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/editor_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/editor_colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextInputLayoutStyle">
+        <item name="android:background">@color/color_text_input_layout</item>
+        <item name="android:paddingTop">@dimen/input_layout_padding_top</item>
+        <item name="android:layout_marginBottom">@dimen/input_layout_margin</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:paddingLeft">@dimen/margin_horizontal</item>
+        <item name="android:paddingRight">@dimen/margin_horizontal</item>
+        <item name="android:paddingTop">@dimen/margin_vertical</item>
+        <item name="android:paddingBottom">@dimen/margin_vertical</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- Style for the detail text view in the detail activity -->
+    <style name="DetailTextStyle">
+        <item name="android:layout_marginRight">@dimen/detail_margin</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/color_detail_text</item>
+    </style>
+
+    <!-- Style for the category text view in the detail activity -->
+    <style name="CategoryDetailTextStyle">
+        <item name="android:layout_marginLeft">@dimen/detail_margin</item>
+        <item name="android:layout_marginRight">@dimen/detail_margin</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/color_category_text</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/color_category_bg</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ProductNameListStyle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/color_list_product_name</item>
+    </style>
+
+    <style name="ProductAuthorListStyle">
+        <item name="android:layout_marginBottom">@dimen/margin_vertical</item>
+        <item name="android:layout_marginTop">@dimen/margin_vertical</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/color_list_author</item>
+    </style>
+
+    <style name="ProductPriceListStyle">
+        <item name="android:layout_marginLeft">@dimen/margin_vertical</item>
+        <item name="android:layout_marginRight">@dimen/margin_vertical</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/color_detail_button</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ProductQuantityListStyle">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@color/color_list_quantity</item>
+    </style>
+
+    <style name="ViewStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">@dimen/activity_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_margin</item>
+    </style>
+
+</resources>

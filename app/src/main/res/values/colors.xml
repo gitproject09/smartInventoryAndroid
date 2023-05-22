@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9433A5</color>
+    <color name="colorPrimaryDark">#6B127A</color>
+    <color name="colorAccent">#ab47bc</color>
+
+    <!-- Primary color for the editor -->
+    <color name="editor_colorPrimary">#66bb6a</color>
+
+    <!-- Primary dark color for the editor -->
+    <color name="editor_colorPrimaryDark">#338a3e</color>
+
+    <color name="gradient_center_color">#880d0d0f</color>
+    <color name="gradient_end_color">#885d5d5e</color>
+    <color name="gradient_start_color">#880f0f10</color>
+
+    <!-- Color for the text input layout background -->
+    <color name="color_text_input_layout">#f3e5f5</color>
+
+    <!-- Color for the button in the detail activity -->
+    <color name="color_detail_button">#ff9800</color>
+
+    <!-- Color for the scroll view background -->
+    <color name="color_scroll_view_bg">#fafafa</color>
+
+    <!-- Text color for the detail text view -->
+    <color name="color_detail_text">#004d40</color>
+
+    <!-- Category text color in the detail activity -->
+    <color name="color_category_text">#338a3e</color>
+
+    <!-- Category background color in the detail activity -->
+    <color name="color_category_bg">#e8f5e9</color>
+
+    <!-- Text color for the empty text view in isbnActivity -->
+    <color name="color_no_matches_found_text">#7986cb</color>
+    <color name="color_grey_text">#9e9e9e</color>
+
+    <!-- Text color for the empty text view in the activity_main.xml -->
+    <color name="color_empty_title_text">#494949</color>
+    <color name="color_empty_subtitle_text">#a4a4a4</color>
+
+    <!-- Text color for the product name in the card_item.xml -->
+    <color name="color_list_product_name">#000a12</color>
+
+    <!-- Text color for the author in the card_item.xml -->
+    <color name="color_list_author">#b0bec5</color>
+
+    <!-- Text color for the quantity in the card_item.xml -->
+    <color name="color_list_quantity">#2B3D4D</color>
+
+</resources>

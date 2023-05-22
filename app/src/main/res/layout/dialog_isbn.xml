@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!-- The Relative Layout provides margins. Margins don't work for Dialogs -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_dialog_isbn"
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_dialog_isbn"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/category_product_isbn"
+            android:inputType="number" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>
